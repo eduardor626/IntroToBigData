@@ -1,0 +1,64 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.ucr.cs.cs167.eroch007:eroch007_lab9:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 139, column 10
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< edu.ucr.cs.cs167.eroch007:eroch007_lab9 >---------------
+[INFO] Building eroch007_lab9 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ eroch007_lab9 ---
+[INFO] Deleting /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ eroch007_lab9 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ eroch007_lab9 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.3.2:compile (default) @ eroch007_lab9 ---
+[INFO] /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/src/main/scala:-1: info: compiling
+[INFO] Compiling 1 source files to /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/target/classes at 1591637266064
+[INFO] prepare-compile in 0 s
+[INFO] compile in 7 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ eroch007_lab9 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ eroch007_lab9 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.3.2:testCompile (default) @ eroch007_lab9 ---
+[INFO] /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/src/test/scala:-1: info: compiling
+[INFO] Compiling 3 source files to /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/target/test-classes at 1591637273799
+[INFO] prepare-compile in 0 s
+[INFO] compile in 8 s
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ eroch007_lab9 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- scalatest-maven-plugin:2.0.0:test (test) @ eroch007_lab9 ---
+Run starting. Expected test count is: 1
+JUnitWrapperSuite:
+- testOK
+Run completed in 242 milliseconds.
+Total number of tests run: 1
+Suites: completed 1, aborted 0
+Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ eroch007_lab9 ---
+[INFO] Building jar: /Users/eduardorocha/workspace/IntroToBigData/eroch007_lab9/target/eroch007_lab9-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.138 s
+[INFO] Finished at: 2020-06-08T10:28:05-07:00
+[INFO] ------------------------------------------------------------------------
